@@ -79,5 +79,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Anthony Nguyen - [@anbguye](https://twitter.com/anbguye)
+Anthony Nguyen - [@anbguye](https://twitter.com/anbguye) <br />
 Project Link: https://github.com/anbguye/relevant-stock-recommender
