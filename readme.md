@@ -51,10 +51,10 @@ PINECONE_ENVIRONMENT=your_pinecone_environment
 
 ## Project Structure
 
-relevant-stock-recommender/
-├── relevant-stock-recommender.ipynb # Main notebook
-├── README.md # Project documentation
-└── .env # Environment variables (not tracked)
+relevant-stock-recommender/<br />
+├── relevant-stock-recommender.ipynb # Main notebook<br />
+├── README.md # Project documentation<br />
+└── .env # Environment variables (not tracked)<br />
 
 
 ## Contributing
