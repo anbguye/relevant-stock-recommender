@@ -18,26 +18,26 @@ A machine learning-powered system that recommends relevant stocks based on news 
 
 ## Required Packages 
 
-bash
+bash <br />
 pip install yfinance langchain_pinecone python-dotenv langchain-community sentence_transformers
 
 ## Installation
 
 1. Clone this repository:
 
-git clone [https://github.com/yourusername/relevant-stock-recommender.git](https://github.com/anbguye/relevant-stock-recommender.git)
+git clone [https://github.com/yourusername/relevant-stock-recommender.git](https://github.com/anbguye/relevant-stock-recommender.git) <br />
 cd relevant-stock-recommender
 
 2. Install dependencies:
 
-bash
+bash <br />
 pip install -r requirements.txt
 
 3. Set up environment variables:
 
-Create a `.env` file with your API keys and configurations:
-PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_ENVIRONMENT=your_pinecone_environment
+Create a `.env` file with your API keys and configurations:<br />
+PINECONE_API_KEY=your_pinecone_api_key <br />
+PINECONE_ENVIRONMENT=your_pinecone_environment <br />
 
 
 ## Usage
