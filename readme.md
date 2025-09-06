@@ -1,20 +1,24 @@
 # Relevant Stock Recommender
 
-A machine learning-powered system that recommends relevant stocks based on news articles and market data. This project uses natural language processing and financial data analysis to identify potential investment opportunities.
+A semantic search system that finds relevant companies based on natural language queries using vector similarity search. This project leverages financial data from Yahoo Finance, stores company descriptions in Pinecone vector database, and uses HuggingFace embeddings to find companies that match user queries about business characteristics, locations, or industries.
 
 ## Features
 
-- Process news articles and market data in real-time
-- Identify relevant stocks based on news content
-- Analyze market trends and correlations
-- Generate stock recommendations using advanced NLP techniques
-- Integrate with financial data providers (Yahoo Finance)
+- Fetch comprehensive stock information from Yahoo Finance
+- Generate text embeddings using HuggingFace Sentence Transformers
+- Store and search company descriptions in Pinecone vector database
+- Perform semantic similarity search to find relevant companies
+- Process SEC company ticker data for comprehensive coverage
+- Generate AI-powered explanations using Google Gemini
+- Parallel processing for efficient data ingestion
 
 ## Prerequisites
 
 - Python 3.10+
 - GPU support (recommended)
 - Google Colab (for notebook execution)
+- Pinecone account and API key
+- Google AI API key (for Gemini)
 
 ## Required Packages 
 
@@ -37,17 +41,20 @@ pip install -r requirements.txt
 
 Create a `.env` file with your API keys and configurations:<br />
 PINECONE_API_KEY=your_pinecone_api_key <br />
-PINECONE_ENVIRONMENT=your_pinecone_environment <br />
+GOOGLE_API_KEY=your_google_api_key <br />
 
 
 ## Usage
 
 1. Open the `relevant-stock-recommender.ipynb` notebook in Google Colab or Jupyter
 2. Follow the notebook cells to:
-   - Process financial news articles
-   - Generate stock recommendations
-   - Analyze market correlations
-   - View recommended stocks
+   - Install required dependencies
+   - Fetch SEC company ticker data
+   - Process stock information from Yahoo Finance
+   - Generate embeddings for company descriptions
+   - Store data in Pinecone vector database
+   - Query for relevant companies using natural language
+   - Generate AI explanations with Google Gemini
 
 ## Project Structure
 
@@ -76,6 +83,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - LangChain for NLP processing
 - Sentence Transformers for text embeddings
 - Pinecone for vector similarity search
+- Google Gemini for AI-powered explanations
 
 ## Contact
 
